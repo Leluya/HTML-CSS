@@ -1,0 +1,165 @@
+body {
+    background-color: #2f3848;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.wrapper {
+    margin: auto;
+    width: 900px;
+}
+
+.banner {
+    background-color: #f05768;
+    height: 80px;
+    border-bottom: 3px solid white;
+}
+
+h1 {
+    color: white;
+    font-size: x-large;
+    font-weight: bold;
+    text-align: center;
+    padding: 25px;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+}
+ul.nav-links{
+    display: flex;
+    justify-content: flex-start;
+}
+
+.nav-links li{
+    padding: 15px 25px 15px 0px;
+}
+.nav-links a{
+    color: yellowgreen;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: small;
+}
+
+ul.nav-icons {
+    display: flex;
+}
+.nav-icons li{
+    padding: 15px 25px 15px 0px;
+}
+
+img.facebook {
+    width: 20px;
+}
+
+img.twitter {
+    width: 20px;
+}
+h2 {
+    color: #00ccff;
+    font-style: italic;
+    font-weight: bold;
+    font-size: x-large;
+}
+p {
+    color: white;
+    font-weight: bold;
+    font-size: small;
+    padding: 10px 0px 10px 0px;
+}
+a {
+    color: yellowgreen;
+}
+.big{
+    max-width: 900px;
+}
+
+.picture{
+   margin-top: 10px;
+   margin-bottom: 20px;
+   position: relative;
+}
+
+.little_banner{
+position: absolute;
+color: white;
+background-color: #f05768;
+top: 0;
+left: 0;
+text-transform: uppercase;
+font-style: bold;
+font-size: 12px;
+height: 20px;
+padding: 3px 3px;
+font-weight: bold;
+}
+main{
+    display: flex;
+
+}
+.photo-text{
+    display: grid;
+    grid-template-areas:
+    "photo-mulitples inscription";
+}
+
+.photo-multiples img.picturecam2, img.picturecam3, img.picturecam4, img.picturecam5, img.picturecam6, img.picturecam7, img.picturecam8, img.picturecam9, img.picturecam10, img.picturecam11, img.picturecam12, img.picturecam13, img.picturecam14, img.picturecam15, img.picturecam16, img.picturecam17, img.picturecam18, img.picturecam19, img.picturecam20{
+    width: 150px;
+}
+
+.photo-multiples img.picturecam1{
+    width: 305px;
+}
+.picturecam1 {
+    grid-area: principal;
+  } 
+
+.photo-multiples{
+    display: grid;
+    column-gap: 5px;
+    row-gap: 5px;
+    grid-template-areas:
+    "principal principal picturecam2 picturecam3"
+    "principal principal picturecam4 picturecam5"
+    "picturecam6 picturecam7 picturecam8 picturecam9"
+    "picturecam10 picturecam11 picturecam12 picturecam13"
+    "picturecam14 picturecam15 picturecam16 picturecam17"
+    "picturecam18 picturecam19 picturecam20 .";
+}
+
+.inscription{
+    background-color: #004488;
+    height: 300px;
+    width: 200px;
+    margin: 0px 84px;
+}
+.inscription a{
+    color: yellowgreen;
+    font-weight: bold;
+    font-size: small;
+    padding: 10px;
+}
+.inscription h3 {
+    color: #00ccff;
+    font-weight: bold;
+    padding: 10px;
+}
+
+.inscription hr{
+    border-block: 1px solid #00ccff;
+    width: 180px;
+}
+
+.inscription p {
+    color: yellowgreen;
+    font-weight: bold;
+    font-size: small;
+    padding: 10px;
+}
+
+footer p{
+    text-align: center;
+    color: #00ccff;
+    font-size: x-small;
+}
+footer {
+    margin: 20px 0px 0px 0px
